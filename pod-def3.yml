@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jenkins-pod
+  labels:
+    app: ci-cd
+    owner: intelliqit
+spec:
+  containers:
+    - name: myjenkins
+      image: jenkins/jenkins
+      ports:
+        - containerPort: 8080
+          hostPort: 9090
+
+...

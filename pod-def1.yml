@@ -5,7 +5,7 @@ metadata:
   name: nginx-pod
   labels:
     type: proxy
-    author: ruchi
+    author: kbr
 
 spec:
   containers:

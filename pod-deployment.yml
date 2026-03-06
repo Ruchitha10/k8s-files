@@ -16,7 +16,7 @@ spec:
       name: nginx-pod
       labels:
         app: proxy
-        owner: kbr
+        author: kbr
 
     spec:
       containers:
